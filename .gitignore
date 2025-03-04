@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit cache
+.streamlit/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated images
+data/images/*.png 
