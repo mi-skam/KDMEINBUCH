@@ -13,13 +13,12 @@ Eine interaktive Streamlit-App, die es ermöglicht, zwischen verschiedenen Chara
 
 ## Installation
 
-1. Python 3.13 oder höher installieren
+1. Python 3.11 oder höher installieren
 2. Repository klonen
 3. Virtuelle Umgebung mit uv erstellen und Abhängigkeiten installieren:
 
 ```bash
-uv venv
-uv pip install -r requirements.txt
+./install.sh
 ```
 
 4. `.env`-Datei erstellen und Anthropic API-Schlüssel hinzufügen:
@@ -31,7 +30,7 @@ ANTHROPIC_API_KEY=your_api_key_here
 ## Ausführung
 
 ```bash
-streamlit run app.py
+streamlit run app.py --run-app
 ```
 
 ## Tests
@@ -39,5 +38,5 @@ streamlit run app.py
 Um die Tests auszuführen:
 
 ```bash
-python run.py
+python run.py --run-tests
 ``` 
